@@ -2,8 +2,8 @@
 MATLAB toolbox to automatically detect and analyse rotational wave patterns in the fMRI data, developed by Dr. Pulin Gong's group at University of Sydney. This toolbox includes the code for detecting the rotational wave patterns (brain vortices) in the data, and the code for generating key figures in a manuscript.
 
 ## Instructions for use
-system dependencies: N/A \n
-software version: MATLAB 2016b and above (has been tested on MATLAB 2016b, 2020b, and 2021a) \n
+system dependencies: N/A <br />
+software version: MATLAB 2016b and above (has been tested on MATLAB 2016b, 2020b, and 2021a) <br />
 hardware requirement: N/A
 
 data format: fMRI data in standard CIFTI grayordinate space, comprising 32K cortical vertices
