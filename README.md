@@ -27,7 +27,7 @@ The preprocessed data and vortex statistics will be saved.
 
 ## Expect output
 Key figures in a manuscript will be generated.
-The following movie of sample detected vortices will be gererated.
+An example movie (movS1.mov) of detected vortices will be gererated.
 
 
 ## Authors
