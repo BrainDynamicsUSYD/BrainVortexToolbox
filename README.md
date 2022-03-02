@@ -22,8 +22,12 @@ The preprocessed data and vortex statistics will be saved.
 ## main_preprocess.m (vortex detection)
 
 
-## main (key figures)
+## main.m (key figures)
 
+
+## Expect output
+Key figures in a manuscript will be generated.
+The following movie of sample detected vortices will be gererated.
 
 
 ## Authors
