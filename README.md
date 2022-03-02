@@ -20,9 +20,19 @@ The preprocessed data and vortex statistics will be saved.
 
 
 ## main_preprocess.m (vortex detection)
+subfunctions:
 
 
 ## main.m (key figures)
+figure 2. vortex visualization
+
+figure 3. dynamical properties of vortices
+
+figure 4. S2. interaction of brain vortices
+
+figure 5. formation mechanism of brain vortices
+
+figure S3. the low dimensional representation of BOLD activities in the vortex
 
 
 ## Expect output
