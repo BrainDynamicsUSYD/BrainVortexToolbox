@@ -22,9 +22,10 @@ Run'Main_results.m' in matlab to generate key results and figures.
 
 
 
-## main function: Main_results.m (vortex detection)
+### main function: 
+Main_results.m (vortex detection)
 
-subfunctions:
+### subfunctions:
 
 Preprocessing_main.m (pre-preocessing of raw fMRI data with spatiotemporal bandpassfilters) <br />
 load_fMRI.m () <br />
@@ -55,8 +56,8 @@ figure 4. S2. interaction of brain vortices
 figure 5. formation mechanism of brain vortices <br />
 
 vortex_detection_centreonly.m (vortex centre location) <br />
-Distance_vs_Amplitude_1subject.m (distiance-to-vortex-centre vs. fMRI amplitude, of a single subject) <br />
-Distance_vs_Amplitude_Allsubject.m (distiance-to-vortex-centre vs. fMRI amplitude, of a all subjects) <br />
+Distance_vs_Amplitude_1subject.m (distance-to-vortex-centre vs. fMRI amplitude, of a single subject) <br />
+Distance_vs_Amplitude_Allsubject.m (distance-to-vortex-centre vs. fMRI amplitude, of a all subjects) <br />
 
 figure 6. functional relevance of brain vortices <br />
 
