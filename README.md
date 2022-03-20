@@ -40,6 +40,8 @@ gifti () <br />
 Key figures in the paper "Interacting rotational wave patterns underlie complex brain dynamics and cognitive processing" will be generated.
 An example movie (movS1.mov) of detected brain vortices will be generated.
 
+The 'Expected Output Figure' folder contains sample results from two sample subjects.
+
 figure 2. vortex visualization <br />
 vortex_detection.m (vortex detection based on curl values of phase vector field) <br />
 pattDetection_v4.m (vortex core detection and isolation via cluster analysis) <br />
