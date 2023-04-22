@@ -1,7 +1,7 @@
 %% Analysis Procedure for main results
 clear all
 %% parameters 
-No_of_Subject = 2; % number of subjects used for analysis
+No_of_Subject = 1; % number of subjects used for analysis
 flagSur = 0; %  0 for real data, 1 to generate surrogate data
 hemisphere = 1; % 1 for left hemisphere, 2 for right hemisphere
 listen_or_answer = 1; % 1 for listening tasks, 2 for answering tasks
