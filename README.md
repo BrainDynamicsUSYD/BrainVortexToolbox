@@ -7,16 +7,19 @@ Software version: MATLAB 2016b and above (has been tested on MATLAB 2016b, 2020b
 Hardware requirement: N/A
 
 Data format: fMRI data in standard CIFTI grayordinate space, comprising 32K cortical vertices
-Data tested: 100 subjects from the Human Connectomb Project (
-HCP, https://db.humanconnectome.org/app/template/Login.vm;jsessionid=891FD879A328E1BB3F1B13BAE7655A9E](https://db.humanconnectome.org/data/projects/HCP_1200 
+Data tested: 100 subjects from the Human Connectomb Project (HCP), [https://db.humanconnectome.org/data/projects/HCP_1200]
 
 ### Launch: <br />
 Sample data is not avaialble in GitHub due to size limitation, please download from the HCP site link above.
 
 Please download all folders above and allocate the raw fMRI data (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. 
+
 For example, the data from subject 100206 recorded during a language task should be allocated in the following folders: 
+
 Raw fMRI data: '/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; 
+
 Structural data: '/Sample Data/Language Task Original 100 sub/Data Pos/100206/L.flat.32k_fs_LR.surf.gii'. 
+
 Task labels: 
 
 Create subfolder 'Data Pos' within 'Sample Data' folder, then allocate position file into it (position file: 'L.flat.32k_fs_LR.surf.gii' (left hemisphere), 'R.flat.32k_fs_LR.surf' (right hemisphere); position file should be stored within a subfolder named by the subject ID, I.e., 'Sample Data/Data Pos/100206 (subject ID)/L.flat.32k_fs_LR.surf.gii').
