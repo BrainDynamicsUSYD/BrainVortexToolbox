@@ -15,12 +15,9 @@ Sample data is not avaialble in GitHub due to size limitation, please download f
 Please download all folders above and allocate the raw fMRI data (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. 
 
 For example, the data from subject 100206 recorded during a language task should be allocated in the following folders: 
-
 Raw fMRI data: '/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; 
-
 Structural data: '/Sample Data/Language Task Original 100 sub/Data Pos/100206/L.flat.32k_fs_LR.surf.gii'. 
-
-Task labels: 
+Task label: 
 
 Create subfolder 'Data Pos' within 'Sample Data' folder, then allocate position file into it (position file: 'L.flat.32k_fs_LR.surf.gii' (left hemisphere), 'R.flat.32k_fs_LR.surf' (right hemisphere); position file should be stored within a subfolder named by the subject ID, I.e., 'Sample Data/Data Pos/100206 (subject ID)/L.flat.32k_fs_LR.surf.gii').
 
