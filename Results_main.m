@@ -1,7 +1,7 @@
 %% Analysis Procedure for main results
 clear all
 restoredefaultpath
-cd '/import/headnode2/yixu4976/Downloads/fMRI/Manuscript/Revision/Code for GitHub v3'
+cd '' % (main folder address here)
 addpath(genpath([pwd]))
 main_folder = pwd;
 
