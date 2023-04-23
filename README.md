@@ -12,7 +12,7 @@ Data tested: 100 subjects from the Human Connectomb Project (HCP), [https://db.h
 ### Launch: <br />
 Sample data is not avaialble in GitHub due to size limitation, please download from the HCP site link above. No subject ID was given as all subjects should be selected randomly from a corhort of 1200 subjects.
 
-Please download all folders from this repository and allocate the raw fMRI data (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. For task state data, please also download the task label files for each subject (witihn the 'EVs' subfolder next to the raw fMRI data file).
+Please download all folders from this repository and allocate the raw fMRI data files (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data files (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. For task state data, please also download the task label files for each subject (witihn the 'EVs' subfolder next to the raw fMRI data file).
 
 For example, the data under subject ID 100206 recorded during a language task should be allocated in the following folders: 
 Raw fMRI data: '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; 
@@ -23,15 +23,14 @@ Run'Results_main.m' in matlab to generate key results and figures.
 
 
 
-### main function: 
+### Main function: 
 Results_main.m (directory to all sub-functions, from preprocessing to spiral detection to sprial-based analysis)
 
-### subfunctions:
-Preprocessing_main.m (pre-preocessing of raw fMRI data with spatiotemporal bandpassfilters) <br />
-load_fMRI.m () <br />
+### Subfunctions:
+Preprocessing_main.m (pre-preocessing of raw fMRI data with/without spatiotemporal bandpassfilters) 
+load_fMRI.m ()
 preproc_fRMI.m () <br />
 spaceFreq_fMRI () <br />
-surrogate_fMRI () <br />
 bandpa_fMRI () <br />
 ft_read_cifti ()  <br />
 gifti () <br />
