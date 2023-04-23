@@ -6,7 +6,7 @@ System dependencies: N/A <br />
 Software version: MATLAB 2016b and above (has been tested on MATLAB 2016b and 2020a) <br />
 Hardware requirement: N/A
 
-Data format: fMRI data in standard CIFTI grayordinate space, comprising 32K cortical vertices
+Data format: fMRI data in standard CIFTI grayordinate space, comprising 32K cortical vertices <br />
 Data tested: 100 subjects from the Human Connectomb Project (HCP), [https://db.humanconnectome.org/data/projects/HCP_1200]
 
 ### Launch: <br />
