@@ -40,6 +40,14 @@ spiral_detection_surfilt.m (spiral detection and filtering based on the statisti
 anglesubtract <br />
 pattDetection_v4 <br />
 
+spiral_distribution_zscore_map_speed_duration_radius_count.m (spiral distribution z-score map, propagation speed, duration, radius and spiral count) <br />
+
+distance_vs_amplitude.m (relationship between fMRI amplitude and its distance to spiral centres) <br />
+
+spiral_interaction_statistics.m (measure the proportion or % of interactions among three spiral-spiral interaction types) <br />
+
+
+
 ## Expect output <br />
 Key figures in the paper "Interacting rotational wave patterns underlie complex brain dynamics and cognitive processing" will be generated.
 An example movie (movS1.mov) of detected brain vortices will be generated.
