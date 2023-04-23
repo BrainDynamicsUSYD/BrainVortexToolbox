@@ -68,37 +68,37 @@ Key figures in the paper "Interacting spiral wave patterns underlie complex brai
 figure 2d. Population-combined z-score maps of brain spiral density in the flattened left cortex  <br />
 spiral_distribution_zscore_map_speed_duration_radius_count.m 
 
-figure 2e. fMRI amplitude vs. distance from singularity.
+figure 2e. fMRI amplitude vs. distance from singularity.<br />
 distance_vs_amplitude.m
 
-figure 3e. spiral propagation speed distribution.
+figure 3e. spiral propagation speed distribution.<br />
 spiral_distribution_zscore_map_speed_duration_radius_count.m 
 
-figure 4a. spiral interaction type statistics.
+figure 4a. spiral interaction type statistics.<br />
 spiral_interaction_statistics.m
 
-figure 5 1st and 2nd columns. task-specific spiral distribution maps.
+figure 5 1st and 2nd columns. task-specific spiral distribution maps.<br />
 task_specific_spiral_distribution.m
 
-figure 5 3rd column. spiral contrast significance maps.
+figure 5 3rd column. spiral contrast significance maps.<br />
 spiral_contrast_significance.m
 
-figure 6a. spiral contrast significance density across 7 functional networks.
+figure 6a. spiral contrast significance density across 7 functional networks.<br />
 spiral_contrast_significance.m
 
-figure 6b-c. sprial centre-based linear classifer performances.
+figure 6b-c. sprial centre-based linear classifer performances.<br />
 spiral_classifer_language_task.m
 
-figure7a-c. sprial detected in task-evoked (trial-averaged) unfiltered fMRI signals.
+figure7a-c. sprial detected in task-evoked (trial-averaged) unfiltered fMRI signals.<br />
 task_evoked_unfiltered_fMRI_signal.m
 
-figure7d. principle component analysis of the regional rotational dynamics in the task-evoked trial-averaged unfiltered fMRI signals.
+figure7d. principle component analysis of the regional rotational dynamics in the task-evoked trial-averaged unfiltered fMRI signals.<br />
 PCA.m
 
-figure8b & d. identification of the region of coordination (ROC).
+figure8b & d. identification of the region of coordination (ROC).<br />
 region_of_coordination_ROC.m
 
-figure8c. local phase vector field-based linear classifier.
+figure8c. local phase vector field-based linear classifier.<br />
 PhaseVectorAngle_local_classifier.m
 
 
