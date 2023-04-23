@@ -14,12 +14,12 @@ Sample data is not avaialble in GitHub due to size limitation, please download f
 
 Please download all folders from this repository and allocate the raw fMRI data files (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data files (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. For task state data, please also download the task label files for each subject (witihn the 'EVs' subfolder next to the raw fMRI data file).
 
-For example, the data under subject ID 100206 recorded during a language task should be allocated in the following folders: 
-Raw fMRI data: '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; 
-Structural data: '/main_folder/Sample Data/Language Task Original 100 sub/Data Pos/100206/L.flat.32k_fs_LR.surf.gii'. 
-Task label files:  '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/EVs/present_math.txt'; 
+For example, the data under subject ID 100206 recorded during a language task should be allocated in the following folders: <br />
+Raw fMRI data: '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; <br />
+Structural data: '/main_folder/Sample Data/Language Task Original 100 sub/Data Pos/100206/L.flat.32k_fs_LR.surf.gii'. <br />
+Task label files:  '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/EVs/present_math.txt'; <br />
 
-Run'Results_main.m' in matlab to generate key results and figures. 
+Run 'Results_main.m' in matlab to generate key results and figures. 
 
 
 
@@ -27,13 +27,14 @@ Run'Results_main.m' in matlab to generate key results and figures.
 Results_main.m (directory to all sub-functions, from preprocessing to spiral detection to sprial-based analysis)
 
 ### Subfunctions:
-Preprocessing_main.m (pre-preocessing of raw fMRI data with/without spatiotemporal bandpassfilters) 
-load_fMRI.m ()
-preproc_fRMI.m () <br />
-spaceFreq_fMRI () <br />
-bandpa_fMRI () <br />
-ft_read_cifti ()  <br />
-gifti () <br />
+Preprocessing_main.m (pre-preocessing of raw fMRI data with/without spatiotemporal bandpassfilters) <br />
+  load_fMRI.m () <br />
+  preproc_fRMI.m () <br />
+  spaceFreq_fMRI () <br />
+  bandpa_fMRI () <br />
+  ft_read_cifti ()  <br />
+  gifti () <br />
+spiral_detection_surfilt.m (spiral detection and filtering based on the statistical test against the null model) <br />
 
 ## Expect output <br />
 Key figures in the paper "Interacting rotational wave patterns underlie complex brain dynamics and cognitive processing" will be generated.
