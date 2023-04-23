@@ -404,7 +404,7 @@ spiral_size_nega_real= [];
 spiral_size_pos_real = [];
 vPhaseX = zeros(size(phaseSig)) ;
 vPhaseY = zeros(size(phaseSig)) ;
-cd '/import/headnode2/yixu4976/Downloads/fMRI/Manuscript/Code For Github_v2'
+cd(main_folder)
 for iTime = 1:size(phaseSig,3)
     for iX = 1:size(phaseSig,1)
         vPhaseX(iX,2:end-1,iTime) = (anglesubtract(phaseSig(iX,3:end,iTime),phaseSig(iX,1:end-2,iTime)))/2 ;
