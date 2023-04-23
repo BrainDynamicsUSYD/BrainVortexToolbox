@@ -31,22 +31,36 @@ Results_main.m (directory to all sub-functions, from preprocessing to spiral det
 Preprocessing_main.m (pre-preocessing of raw fMRI data with/without spatiotemporal bandpassfilters) <br />
 load_fMRI.m  <br />
 preproc_fRMI.m  <br />
-spaceFreq_fMRI  <br />
-bandpa_fMRI  <br />
-ft_read_cifti  <br />
-gifti  <br />
+spaceFreq_fMRI.m  <br />
+bandpa_fMRI.m  <br />
+ft_read_cifti.m  <br />
+gifti.m  <br />
 
 spiral_detection_surfilt.m (spiral detection and filtering based on the statistical test against the null model) <br />
-anglesubtract <br />
-pattDetection_v4 <br />
+anglesubtract.m <br />
+pattDetection_v4.m <br />
 
 spiral_distribution_zscore_map_speed_duration_radius_count.m (spiral distribution z-score map, propagation speed, duration, radius and spiral count) <br />
 
 distance_vs_amplitude.m (relationship between fMRI amplitude and its distance to spiral centres) <br />
 
-spiral_interaction_statistics.m (measure the proportion or % of interactions among three spiral-spiral interaction types) <br />
+spiral_interaction_statistics.m (% proportion of spiral-spiral interactions among three interaction types) <br />
 
+TaskLabel_Extract.m (extract task labels of each subject) <br />
 
+task_specific_spiral_distribution.m (trial-averaged sprial distribution maps across all subjects under each task condition) <br />
+
+spiral_contrast_significance.m (spiral contrast significance maps between different task conditions and their density in 7 functional networks) <br />
+
+spiral_classifer_language_task.m (sprial centre-based linear classifier) <br />
+
+task_evoked_unfiltered_fMRI_signal.m (spiral detection based on task-evoked trial-averaged unfiltered fMRI signals) <br />
+
+PCA.m (principle component analysis of the regional rotational dynamics in the task-evoked trial-averaged unfiltered fMRI signals) <br />
+
+region_of_coordination_ROC.m (identification of the ROC)
+
+PhaseVectorAngle_local_classifier.m (local phase vector field-based linear classifier)
 
 ## Expect output <br />
 Key figures in the paper "Interacting rotational wave patterns underlie complex brain dynamics and cognitive processing" will be generated.
