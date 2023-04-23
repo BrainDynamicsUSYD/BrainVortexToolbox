@@ -28,7 +28,7 @@ Results_main.m (directory to all sub-functions, from preprocessing to spiral det
 
 ### Subfunctions:
 Preprocessing_main.m (pre-preocessing of raw fMRI data with/without spatiotemporal bandpassfilters) <br />
-(pre)load_fMRI.m () <br />
+<pre>load_fMRI.m () <br />
 (pre)preproc_fRMI.m () <br />
 (pre)spaceFreq_fMRI () <br />
 (pre)bandpa_fMRI () <br />
