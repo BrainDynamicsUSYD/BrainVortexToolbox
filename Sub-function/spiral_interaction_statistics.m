@@ -1,4 +1,4 @@
-function [count_repulsion_percent_avg,count_partialannihilation_percent_avg,count_fullannihilation_percent_avg] = spiral_interaction_statistics_revision(flagRest,flagSur,hemisphere,main_folder,No_of_Subject,flagTask)
+function [count_repulsion_percent_avg,count_partialannihilation_percent_avg,count_fullannihilation_percent_avg] = spiral_interaction_statistics(flagRest,flagSur,hemisphere,main_folder,No_of_Subject,flagTask)
 
 %% spiral interaction tracking
 
