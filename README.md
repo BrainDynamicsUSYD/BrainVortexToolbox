@@ -3,7 +3,7 @@ MATLAB toolbox to automatically detect and analyse rotational wave patterns in t
 
 ## Instructions for use
 System dependencies: N/A <br />
-Software version: MATLAB 2016b and above (has been tested on MATLAB 2016b, 2020b, and 2021a) <br />
+Software version: MATLAB 2016b and above (has been tested on MATLAB 2016b, 2020b, and 2020a) <br />
 Hardware requirement: N/A
 
 Data format: fMRI data in standard CIFTI grayordinate space, comprising 32K cortical vertices
@@ -27,14 +27,18 @@ Run 'Results_main.m' in matlab to generate key results and figures.
 Results_main.m (directory to all sub-functions, from preprocessing to spiral detection to sprial-based analysis)
 
 ### Subfunctions:
+
 Preprocessing_main.m (pre-preocessing of raw fMRI data with/without spatiotemporal bandpassfilters) <br />
-  load_fMRI.m () <br />
-  preproc_fRMI.m () <br />
-spaceFreq_fMRI () <br />
-bandpa_fMRI () <br />
-ft_read_cifti ()  <br />
-gifti () <br />
+load_fMRI.m  <br />
+preproc_fRMI.m  <br />
+spaceFreq_fMRI  <br />
+bandpa_fMRI  <br />
+ft_read_cifti  <br />
+gifti  <br />
+
 spiral_detection_surfilt.m (spiral detection and filtering based on the statistical test against the null model) <br />
+anglesubtract <br />
+pattDetection_v4 <br />
 
 ## Expect output <br />
 Key figures in the paper "Interacting rotational wave patterns underlie complex brain dynamics and cognitive processing" will be generated.
