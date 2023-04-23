@@ -48,11 +48,11 @@ spiral_interaction_statistics.m (% proportion of spiral-spiral interactions amon
 
 TaskLabel_Extract.m (extract task labels of each subject) <br />
 
-task_specific_spiral_distribution.m (trial-averaged sprial distribution maps across all subjects under each task condition) <br />
+task_specific_spiral_distribution.m (trial-averaged spiral distribution maps across all subjects under each task condition) <br />
 
 spiral_contrast_significance.m (spiral contrast significance maps between different task conditions and their density in 7 functional networks) <br />
 
-spiral_classifer_language_task.m (sprial centre-based linear classifier) <br />
+spiral_classifer_language_task.m (spiral centre-based linear classifier) <br />
 
 task_evoked_unfiltered_fMRI_signal.m (spiral detection based on task-evoked trial-averaged unfiltered fMRI signals) <br />
 
@@ -63,51 +63,50 @@ region_of_coordination_ROC.m (identification of the ROC)
 PhaseVectorAngle_local_classifier.m (local phase vector field-based linear classifier)
 
 ## Expect output <br />
-Key figures in the paper "Interacting rotational wave patterns underlie complex brain dynamics and cognitive processing" will be generated.
-An example movie (movS1.mov) of detected brain vortices will be generated.
+Key figures in the paper "Interacting spiral wave patterns underlie complex brain dynamics and are related to cognitive processing" will be generated.
 
-The 'Expected Output Figure' folder contains sample results from two sample subjects.
+figure 2d. Population-combined z-score maps of brain spiral density in the flattened left cortex  <br />
+spiral_distribution_zscore_map_speed_duration_radius_count.m 
 
-figure 2. vortex visualization <br />
-vortex_detection.m (vortex detection based on curl values of phase vector field) <br />
-pattDetection_v4.m (vortex core detection and isolation via cluster analysis) <br />
-anglesubtract.m (anglar subtraction) <br />
+figure 2e. fMRI amplitude vs. distance from singularity.
+distance_vs_amplitude.m
 
+figure 3e. spiral propagation speed distribution.
+spiral_distribution_zscore_map_speed_duration_radius_count.m 
 
-figure 3. dynamical properties of vortices
+figure 4a. spiral interaction type statistics.
+spiral_interaction_statistics.m
 
+figure 5 1st and 2nd columns. task-specific spiral distribution maps.
+task_specific_spiral_distribution.m
 
+figure 5 3rd column. spiral contrast significance maps.
+spiral_contrast_significance.m
 
-figure 4. S2. interaction of brain vortices
+figure 6a. spiral contrast significance density across 7 functional networks.
+spiral_contrast_significance.m
 
+figure 6b-c. sprial centre-based linear classifer performances.
+spiral_classifer_language_task.m
 
-figure 5. formation mechanism of brain vortices <br />
+figure7a-c. sprial detected in task-evoked (trial-averaged) unfiltered fMRI signals.
+task_evoked_unfiltered_fMRI_signal.m
 
-vortex_detection_centreonly.m (vortex centre location) <br />
-Distance_vs_Amplitude_1subject.m (distance-to-vortex-centre vs. fMRI amplitude, of a single subject) <br />
-Distance_vs_Amplitude_Allsubject.m (distance-to-vortex-centre vs. fMRI amplitude, of a all subjects) <br />
+figure7d. principle component analysis of the regional rotational dynamics in the task-evoked trial-averaged unfiltered fMRI signals.
+PCA.m
 
-figure 6. functional relevance of brain vortices <br />
+figure8b & d. identification of the region of coordination (ROC).
+region_of_coordination_ROC.m
 
-Task_specific_vortex_distribution.m (task-specific, rotation-specific and population-averaged vortex distribution) <br />
-vortex_contrast_distribution_7networks.m (contrast densities between vortex distributions of math and story tasks in 7 functional networks) <br />
-parcellation_template.mat (parcellation template of 22 functional areas) <br />
-parcellation_template7.mat (parcellation template of 7 functional networks) <br />
-vortex_centre_classifer.m (classification accuracy between math and story task conditions based on single-trial moment-by-moment vortex centre distributions)
+figure8c. local phase vector field-based linear classifier.
+PhaseVectorAngle_local_classifier.m
 
-figure 7. Task-specific activity flow flexibly organized by arrays of brain vortices <br />
-
-Task_specific_phase_vector_field.m (trial-averaged task-specific phase vector field during math listening and answering tasks + 2D heatmap of angle differences between trial averaged phase vector fields of the two tasks + corresponding streamlines) <br />
-PhaseVectorAngle_local_classifier.m (2D heatmap of classifiation accuracy between math listening and answering tasks, based on the phase vector field angles of a 3x3 array centred at each target voxel within the ROI) <br />
-
-
-figure S3. the low dimensional representation of BOLD activities in the vortex
 
 
 ## Authors
 
+* **YiBen Xu** - yixu4976@uni.sydney.edu.au
 * **Xian Long** - [Xian Long](https://github.com/longxian319)
-* **YiBen Xu** 
 * **Pulin Gong** - pulin.gong@sydney.edu.au
 
 
