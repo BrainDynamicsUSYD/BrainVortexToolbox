@@ -10,27 +10,23 @@ Data format: fMRI data in standard CIFTI grayordinate space, comprising 32K cort
 Data tested: 100 subjects from the Human Connectomb Project (HCP), [https://db.humanconnectome.org/data/projects/HCP_1200]
 
 ### Launch: <br />
-Sample data is not avaialble in GitHub due to size limitation, please download from the HCP site link above.
+Sample data is not avaialble in GitHub due to size limitation, please download from the HCP site link above. No subject ID was given as all subjects should be selected randomly from a corhort of 1200 subjects.
 
-Please download all folders above and allocate the raw fMRI data (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. 
+Please download all folders from this repository and allocate the raw fMRI data (i.e., 'tfMRI_LANGUAGE_LR_Atlas.dtseries.nii') and structural data (i.e.,'L.flat.32k_fs_LR.surf.gii') downloaded from HCP database into subfolders named by the subject ID under 'Raw Data' and 'Data Pos' folders, repectively. For task state data, please also download the task label files for each subject (witihn the 'EVs' subfolder next to the raw fMRI data file).
 
-For example, the data from subject 100206 recorded during a language task should be allocated in the following folders: 
-Raw fMRI data: '/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; 
-Structural data: '/Sample Data/Language Task Original 100 sub/Data Pos/100206/L.flat.32k_fs_LR.surf.gii'. 
-Task label: 
+For example, the data under subject ID 100206 recorded during a language task should be allocated in the following folders: 
+Raw fMRI data: '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/tfMRI_LANGUAGE_LR_Atlas.dtseries.nii'; 
+Structural data: '/main_folder/Sample Data/Language Task Original 100 sub/Data Pos/100206/L.flat.32k_fs_LR.surf.gii'. 
+Task label files:  '/main_folder/Sample Data/Language Task Original 100 sub/Raw Data/100206/EVs/present_math.txt'; 
 
-Create subfolder 'Data Pos' within 'Sample Data' folder, then allocate position file into it (position file: 'L.flat.32k_fs_LR.surf.gii' (left hemisphere), 'R.flat.32k_fs_LR.surf' (right hemisphere); position file should be stored within a subfolder named by the subject ID, I.e., 'Sample Data/Data Pos/100206 (subject ID)/L.flat.32k_fs_LR.surf.gii').
-
-Create subfolder 'Task Label' within 'Sample Data' folder, then allocate language task label file into it (task label file: 'language_label_100206.mat', where 100206 represents subject ID; task label file should be stored directly in the subfolder 'Task Label', I.e.,  'Sample Data/Task Label/language_label_100206.mat').
-Run'Main_results.m' in matlab to generate key results and figures. 
+Run'Results_main.m' in matlab to generate key results and figures. 
 
 
 
 ### main function: 
-Main_results.m (vortex detection)
+Results_main.m (directory to all sub-functions, from preprocessing to spiral detection to sprial-based analysis)
 
 ### subfunctions:
-
 Preprocessing_main.m (pre-preocessing of raw fMRI data with spatiotemporal bandpassfilters) <br />
 load_fMRI.m () <br />
 preproc_fRMI.m () <br />
