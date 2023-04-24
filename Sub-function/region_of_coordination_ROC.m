@@ -142,7 +142,7 @@ angle_dif_abs_filt(isnan(angle_dif_abs_filt)) = 0;
 angle_dif_abs_filt(:,:,2) = 0;
 
 params.minPattTime = 1;
-params.minPattSize = 50; %18 = 36mm
+params.minPattSize = 18; % 36mm
 [WCentroids,absoluteTime,instantTotalPower,pattSize,patternIdx] = pattDetection_v4(angle_dif_abs_filt,angle_dif_abs_filt,params,0,'CenterOfMass_Amp');
 
 angle_dif_abs_filt2 = nan(176,251);
