@@ -63,7 +63,7 @@ region_of_coordination_ROC.m (identification of the ROC)
 
 PhaseVectorAngle_local_classifier.m (local phase vector field-based linear classifier)
 
-## Expect output <br />
+## Expected output <br />
 Key figures in the paper "Interacting spiral wave patterns underlie complex brain dynamics and are related to cognitive processing" will be generated.
 
 figure 2d. Population-combined z-score maps of brain spiral density in the flattened left cortex  <br />
